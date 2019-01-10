@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Typer Master</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
+</head>
+
+<body>
+    <script type="text/javascript" src="https://riversun.github.io/jsframe/jsframe.js"  ></script>
+    <canvas id="canvas">Your browser doesn't support HTML5.</canvas>
+    <div id="bgimage"></div>
+    <img id="gameover" src="images/gameoverBG.png">
+    <img id="logo" src="images/GameLogo.png">   
+    <img id="play" src="images/playIcon.png" alt="Play Icon">
+
+    <a href="help_page/help.html">
+        <img id="ilogo" src="images/helplogo.png">
+    </a>
+
+    <img id="home" src="images/home logo.png" alt="Home Button">
+    <img id='firebestscoreicon' src="images/highestscore.png" >
+    <img id='icebestscoreicon' src="images/highestscore.png" >
+    <img id="fire" src="images/fireKingdom.png" alt="FireKingdomTeam">
+    
+    <img id="ice" src="images/iceKingdom.png" alt="IceKingdomTeam">
+    <h1 id="fireScore" class="highscore" style="color:darkorange" ></h1>         
+    <h1 id="iceScore" class="highscore" style="color:darkorange"></h1>
+    
+
+    <div id='levelbtns'>
+        <img class="levels" id="easy" src="images/easyice.png" >                            
+        <img class="levels" id="medium" src="images/mediumice.png">
+        <img class="levels" id="hard" src="images/hardice.png">
+    </div>
+    
+    <div>
+        <img class="lives" src="images/live.png">
+        <img class="lives" src="images/live.png">
+        <img class="lives" src="images/live.png">
+    </div>
+    
+    <img id="bestscoreicon" class="lives" src="images/bestscoreicon.png">
+    <img id="scorelogo" class="lives" src="images/scorelogo.png">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fpsmeter/0.3.1/fpsmeter.min.js"></script> <!-- Doesn't work without it-->
+        
+    <script src="typer.js"></script>
+
+</body>
+</html>
